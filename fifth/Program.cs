@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int a = 100;
+int b = 250;
+int c = 30;
+int d = 40;
+int e = 50;
+int max = a;
+if (b > max) max = b;
+if (c > max) max = c;
+if (d > max) max = d;
+if (e > max) max = e;
+Console.Write("max = ");
+Console.WriteLine(max);
